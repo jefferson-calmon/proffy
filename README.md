@@ -5,7 +5,7 @@
 </div>
 
 
-## :book: Sobre o projeto
+## :scroll: Sobre o projeto
 
 O Proffy é uma plataforma de estudos online criada durante o Next Level Week #2. O NLW é um evento disponibilizado pela rocketseat que visa levar os devs para um próximo nível.
 
