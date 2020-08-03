@@ -26,7 +26,7 @@ Para desenvolver este projeto utilizamos as seguintes tecnologias:
 
 ## :rocket: Utilização
 
-**Você pode acessar esta plataforma clicando [aqui]().**
+**Você pode acessar esta plataforma clicando [aqui](https://proffy-app.netlify.app/).**
 
 ou
 
