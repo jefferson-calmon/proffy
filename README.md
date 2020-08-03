@@ -1,5 +1,5 @@
 <div align="center">
-    <h1>Proffy</h1>
+    <h1>:book: Proffy</h1>
     <p>A sua plataforma de estudos online.</p>
     <img src="./images-readme/capa.png">
 </div>
