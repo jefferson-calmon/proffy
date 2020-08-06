@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import api from '../../services/api';
 
 import './styles.css';
 
@@ -10,6 +11,19 @@ import GiveClasses from '../../assets/images/icons/give-classes.svg';
 import PurpleHeart from '../../assets/images/icons/purple-heart.svg';
 
 const Landing = () => {
+
+    const [ totalConnections, setTotalConnections ] = useState(0);
+
+    useEffect(() => {
+        api.get('connections').then(response => {
+            const connections = response.data.total;
+
+            setTotalConnections(connections);
+        }).catch(err => {
+            console.log(err)
+        });
+    }, []);
+
     return(
         <div id="page-landing">
             <div id="page-landing-content" className="container">
@@ -38,7 +52,7 @@ const Landing = () => {
                 </div>
 
                 <span className="total-connections">
-                    Total de 200 conexões já realizadas 
+                    Total de {totalConnections} conexões já realizadas 
                     <img src={PurpleHeart} alt="Total of connections in Proffy"/>
                 </span>
             </div>

@@ -39,6 +39,14 @@
     color: var(--color-title-in-primary);
 }
 
+.page-header .header-content p{
+    max-width: 30rem;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: var(--color-text-in-primary);
+    margin-top: 2.4rem;
+}
+
 @media (min-width: 700px){
     .page-header{
         height: 340px;
@@ -54,8 +62,9 @@
         margin: 0 auto;
         padding-bottom: 48px;
         display: flex;
-        justify-content: flex-start;
-        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
     }
 
     .page-header .header-content strong{

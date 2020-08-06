@@ -73,6 +73,11 @@
     transition: 0.2s;
 }
 
+.teacher-item footer a{
+    text-decoration: none;
+    color: inherit;
+}
+
 .teacher-item footer button:hover{
     background: var(--color-secundary-dark);
 }

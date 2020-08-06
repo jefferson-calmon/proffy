@@ -45,6 +45,21 @@ ou
 5. Caso não abra um página web em seu navegador, acesse ```http://localhost:3000```
 
 
+## Back-End
+
+1. Se você não clonou este respositório ainda, clone ele seguindo o 1° passo do front-end.
+
+1. Acesse a pasta ```server```
+
+1. Rode ```npm install``` ou ```yarn install``` para instalar as dependências do projeto.
+
+1. Rode ```npm knex:migrate``` ou ```yarn knex:migrate``` para criar o banco de dados.
+
+1. Instale 
+
+1. Inicie o projeto com ``````
+
+
 ## :technologist: Dev
 
 Jovem apaixonado por programação e desenvolvimento, Jefferson ferrari é um desenvolvedor front-end.
