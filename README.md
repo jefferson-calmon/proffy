@@ -1,5 +1,5 @@
 <div align="center">
-    <h1><img src="./images-readme/logo.png"></h1>
+    <h1><img src="./images-readme/logo.png" width="250"></h1>
     <p>A sua plataforma de estudos online.</p>
     
 <p align="center">
